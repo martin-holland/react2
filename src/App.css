@@ -43,6 +43,18 @@ h1 {
 main {
   display: flex;
   flex-wrap: wrap;
+  background-color: orange;;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+  height: 50px;
+  margin: 20px 5%;
+  font-size: large;
+  padding: 1rem;
 }
 
 .box {
@@ -68,7 +80,6 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: var(--bg-color-main);
-  margin-top: 20px;
   height: 100px;
   width: 100%;
   text-align: center;
