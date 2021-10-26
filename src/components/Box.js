@@ -6,8 +6,8 @@ const Box = (props) => {
     return (
         <div className = "box">
           <h2>{props.name}</h2>
-          <p class="title">Title: {props.title}</p>
-          <p class="age">Age: {props.age}</p>
+          <p className="title">Title: {props.title}</p>
+          <p className="age">Age: {props.age}</p>
           <button onClick={addEventHandler}>Click me</button>
         </div>
     )
