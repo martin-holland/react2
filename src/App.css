@@ -75,6 +75,11 @@ button {
   padding: 10px;
 }
 
+.boxButton {
+  background-color: rgb(112, 247, 112);
+  box-shadow: black 0 0 10px;
+}
+
 footer {
   display: flex;
   justify-content: center;
